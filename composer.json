@@ -1,0 +1,29 @@
+{
+    "name": "rabahlivewire/rabahlivewire",
+    "description": "Laravel livewire custom package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rabahlivewire\\Rabahlivewire\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": [
+               "Rabahlivewire\\Rabahlivewire\\MyServiceProvider"
+            ] 
+        }
+    },
+    "authors": [
+        {
+            "name": "yaziddouassi",
+            "email": "rabahdouassi@yahoo.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.0"
+    }
+}
